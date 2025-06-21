@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    display: flex;
+    background-color: purple;
+    margin: 10px;
+    padding: 20px;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    /* align-items: flex-end; */
+    margin: 14px;
+    font-size: 18px;
+    align-items: center;
+    gap: 40px;
+    /* align-items: flex-end; */
+}
+.home{
+    width: 500px;
+    align-items: flex-end;
+    text-align: right;
+    
+}
+.header a{
+    color: aliceblue;
+    text-align: right;
+}
+
+main{
+    display: flex;
+    background-color: white;
+    margin-bottom: 40px;
+    /* border: 2px solid red; */
+    /* height: calc(10vh-10px); */
+}
+.intro{
+    align-content: center;
+    text-align: center;
+    /* margin: 20px; */
+}
+.intro h1{
+    font-size: 49px;
+}
+.intro h2{
+    font-size: 49px;
+    margin-bottom: 14px;
+}
+.intro hr{
+    margin-bottom: 6px;
+}
+.intro p{
+    font-size: 18px;
+}
+.intro a{
+    /* margin: 30px; */
+    padding: 6vh;
+    
+}
+.intro img{
+    width: 100px;
+}
+.service{
+    /* margin-top: 20px; */
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+    align-items: center;
+}
+.service hr{
+    width: 200px;
+}
+.serve{
+    display: flex;
+    padding: 40px;
+    text-align: center;
+    gap: 10px;
+    /* background-color: darkolivegreen; */
+    
+
+}
+.serve .web img{
+    width: 60px;
+    margin-bottom: 10px;
+}
+.serve .digital img{
+    width: 100px;
+    margin-bottom: 9px;
+    margin-top: 8px;
+}
+.serve .app img{
+    width: 47px;
+}
+
+.skl hr{
+    width: 100px;
+    margin-left: 624px;
+    
+
+}
+.skl{
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    padding-bottom: 20px;
+
+}
+.skill{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    gap: 400px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+    font-size: larger;
+    
+}
+.langu{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    gap: 400px;
+    padding-left: 200px;
+    font-size: larger;
+}
+                               /* TEAM */
+pre{
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}                             
+.team{
+    display: flex;
+    /* flex-direction: row; */
+    
+
+}
+.team img{
+    width: 90px;
+}
+.team .hamza img{
+    width: 60px;
+}
+.team h1{
+    margin-left: 40px;
+}
+
+.team .usman{
+    padding: 40px;
+    margin-left: 180px;
+}
+.team .hamza{
+    padding: 40px;
+    margin-left: 180px;
+
+}
+.team .ahmar{
+    padding: 40px;
+    margin-left: 180px;
+}
+                             /* contact */
+
+.cont{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+.cont hr{
+    width: 160px;
+}
+.cont div{
+    margin-top: 20px;
+}
+.cont button{
+    margin-top: 16px;
+    margin-left: 59px;
+} 
+                         /* footer */
+footer{
+    display: flex;
+    padding: 90px;
+    gap: 320px;
+    font-size: 20px;
+    color: beige;
+    background-color: #000;
+    margin-top: 27px;
+}
+
+
